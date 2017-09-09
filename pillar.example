@@ -1,0 +1,9 @@
+nscd:
+  lookup:
+    config:
+      logfile: /var/log/nscd.log
+      server-user: nscd
+    passwd:
+      enable-cache: no
+    group:
+      positive-time-to-live: 3600
